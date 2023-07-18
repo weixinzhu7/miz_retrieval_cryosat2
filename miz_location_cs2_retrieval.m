@@ -1,11 +1,11 @@
 function [miz_location_by_cs2_ssd_kstest,length_miz_cs2,flag] = miz_location_cs2_retrieval(filename,pathname)
-%%    *******************       %%
-% input:pathname: path where save the cs2 L2i product
-%       filename: name of CS2 L2i product
+% input:
+%   pathname: path where save the cs2 L2i product
+%   filename: name of CS2 L2i product
 % output:
-% miz_location_by_cs2_ssd_kstest:alongtrack Wave-affected MIZ location by CS2 
-% length_miz_cs2: alongtrack Wave-affected MIZ length by CS2 (km)
-% flag: regional flag (1:GS region,2:NS region,3:BS region)
+%   miz_location_by_cs2_ssd_kstest:alongtrack Wave-affected MIZ location by CS2 
+%   length_miz_cs2: alongtrack Wave-affected MIZ length by CS2 (km)
+%   flag: regional flag (1:GS region,2:NS region,3:BS region)
 %
 % Author Info
 %   This function and supporting documentation were written by Weixin Zhu
