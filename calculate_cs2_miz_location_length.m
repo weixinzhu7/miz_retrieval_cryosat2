@@ -33,7 +33,7 @@ for subtrack_index=1:length(subtrack_index_start)
     subtrack_data=cs2_baselined_track_data(subtrack_index_start(subtrack_index):subtrack_index_end(subtrack_index),:);
     % Obtain the MIZ based on Sea Ice Concentration
     subtrack_sic=subtrack_data(:,10);
-    cs2_sic_miz_index=find(subtrack_sic>15 & subtrack_sic<80);
+    cs2_sic_miz_index=find(subtrack_sic>15 && subtrack_sic<80);
 
     if(length(cs2_sic_miz_index)<2)
         cs2_miz_definition_ssd_kstest=ones(length(subtrack_data(:,1)),1)*nan;
