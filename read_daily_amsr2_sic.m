@@ -1,12 +1,13 @@
 function [longitude_sic,latitude_sic,sic_double] = read_daily_amsr2_sic(year_index,month_index,day_index)
-%input: index of date
-%output: daily SIC product from University of Bremen
+%input: 
+%   index of date
+%output: 
+%   daily SIC product from University of Bremen
 %
 % Author Info
 %   This function and supporting documentation were written by Weixin Zhu
 %   of Tsinghua University in June 2023.
 %   For any issues, please write to zwx19@mails.tsinghua.edu.cn
-
 
 month={'01','02','03','04','05','06','07','08','09','10','11','12'};
 date={'01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31'};
