@@ -1,7 +1,9 @@
 function [cs2_parameter] = read_cs2_l2i_product(filename,pathname)
-% input:pathname: path where save the cs2 L2i product
-%       filename: name of CS2 L2i product
-% output: valid cs2 parameters in Altantic Arctic
+% input:
+%   pathname: path where save the cs2 L2i product
+%   filename: name of CS2 L2i product
+% output: 
+%   valid cs2 parameters in Altantic Arctic
 %
 % Author Info
 %   This function and supporting documentation were written by Weixin Zhu
