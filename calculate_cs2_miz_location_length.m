@@ -1,10 +1,10 @@
 function [cs2_ssd_kstest_miz_flag,length_miz_cs2,flag] = calculate_cs2_miz_location_length(cs2_baselined_track_data)
-%%    *******************       %%
-% input:alongtrack cs2 parameter
+% input:
+%   alongtrack cs2 parameter
 % output:
-% cs2_ssd_kstest_miz_flag:alongtrack Wave-affected MIZ location by CS2 
-% length_miz_cs2: alongtrack Wave-affected MIZ length by CS2 (km)
-% flag: regional flag (1:GS region,2:NS region,3:BS region)
+%   cs2_ssd_kstest_miz_flag:alongtrack Wave-affected MIZ location by CS2 
+%   length_miz_cs2: alongtrack Wave-affected MIZ length by CS2 (km)
+%   flag: regional flag (1:GS region,2:NS region,3:BS region)
 %
 % Author Info
 %   This function and supporting documentation were written by Weixin Zhu
