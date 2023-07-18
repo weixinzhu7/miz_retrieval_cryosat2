@@ -1,6 +1,8 @@
 function [cs2_baselined_track_new]=convert_track_ascend(cs2_baselined_track_data)
-% input:alongtrack cs2 parameter 
-% output: All data is arranged in ascending track direction.
+% input:
+%   alongtrack cs2 parameter 
+% output:
+%   All data is arranged in ascending track direction.
 %
 % Author Info
 %   This function and supporting documentation were written by Weixin Zhu
