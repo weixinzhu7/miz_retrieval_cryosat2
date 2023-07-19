@@ -40,10 +40,14 @@ else
 
     % retrieve miz with alongtrack cs2 parameter
     [cs2_ssd_kstest_miz_flag,length_miz_cs2,flag]=calculate_cs2_miz_location_length(cs2_baselined_track_filter);
-
     cs2_ssd_kstest_miz_index=find(cs2_ssd_kstest_miz_flag==1);
-    miz_location_by_cs2_ssd_kstest=cs2_baselined_track_filter(cs2_ssd_kstest_miz_index,1:2);
-
+    
+    if(isempty(cs2_ssd_kstest_miz_index))
+        miz_location_by_cs2_ssd_kstest=[];
+    else
+        fprintf("Valid Retrieval of MIZ in Atlantic Arctic");
+        miz_location_by_cs2_ssd_kstest=cs2_baselined_track_filter(cs2_ssd_kstest_miz_index,1:2);
+    end
 
 end
 
